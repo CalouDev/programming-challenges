@@ -1,14 +1,14 @@
 #/usr/bin/python3
 
-'''Votre programme prends en entrée une chaine de caractère. Il devra effectuer des opérations sur cette dernière à partir d'une clé qui est robinson c'est le meilleur
+'''Votre programme prend en entrée une chaine de caractère. Il devra effectuer des opérations sur cette dernière à partir d'une clé qui est "robinson c'est le meilleur"
 
-Explication technique : si la chaine est inférieure à la clé, alors on réduit la clé pour quelle ai le bon nombre de
-caractères ex : chaine : bjr donc clé : rob si elle est trop longue on recommence au début de
-la clé ex chaine : ...truc avant donc ...robinson c. Les opérations seront d'abord un ET binaire
-et ensuite en XOR. Il faudra donner le résultat sous forme d'une chaine de caractère. (pas 00100 mais ajdh3r)
+Explication technique : si la chaine est inférieure à la clé, alors on réduit la clé pour qu'elle ait le bon nombre de
+caractères (ex : chaine: "bjr" donc clé: "rob") si elle est trop longue on recommence au début de
+la clé (ex : chaine: "...truc avant" donc "...robinson c". Les opérations seront d'abord une converstiob en ET binaire
+et ensuite en XOR. Il faudra donner le résultat sous forme d'une chaine de caractères. (pas 00100 mais ajdh3r)
 
-vous devrai vérifier que votre valeur final soit < ou = à 32  si c'est le cas alors vous lui ajouter 32. 
-Si elle est égale à 127 vous lui enlever 2 et si elle est entre 32 et 126 alors vous la laisser comme ça.'''
+vous devrez vérifier que votre valeur finale soit < ou = à 32  si c'est le cas alors vous lui ajoutée 32. 
+Si elle est égale à 127 vous lui enlevée 2 et si elle est entre 32 et 126 alors vous ne changez rien.'''
 
 final_result = ""
 key = "robinson c'est le meilleur"
