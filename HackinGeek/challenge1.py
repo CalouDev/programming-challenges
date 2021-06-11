@@ -26,9 +26,9 @@ for _ in range(len(key)):
     # AND comparaison bin_usr & key
     bin_key = "0" + "".join(format(ord(key[_]), "b"))
     bin_usr = "0" + "".join(format(ord(usr[_]), "b"))
-    if key[_] == " " or key[_] == "'":
+    if len(bin_key):
         bin_key = "0" + bin_key
-    if usr[_] == " " or usr[_] == "'":
+    if len(bin_usr):
         bin_usr = "0" + bin_usr
     for x in range(8): # len(bin_...)
         if int(bin_key[x]) + int(bin_usr[x]) > 1:
