@@ -10,6 +10,8 @@ et ensuite en XOR. Il faudra donner le résultat sous forme d'une chaine de cara
 vous devrez vérifier que votre valeur finale soit < ou = à 32  si c'est le cas alors vous lui ajoutée 32. 
 Si elle est égale à 127 vous lui enlevée 2 et si elle est entre 32 et 126 alors vous ne changez rien.'''
 
+# without using & and ^
+
 final_result = ""
 key = "robinson c'est le meilleur"
 usr = input("Enter text : ")
