@@ -38,7 +38,7 @@ for _ in range(len(key)):
         else:
             and_result += "0"
 
-    # XOR comparaison AND(bin_usr & bin_key) & bin_key
+    # XOR comparaison AND(bin_usr & bin_key) ^ bin_key
     xor_result = ""
     for i in range(8):
         if (and_result[i] == "0" and bin_key[i] == "0") or (and_result[i] == "1" and bin_key[i] == "1"):
