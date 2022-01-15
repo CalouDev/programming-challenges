@@ -12,7 +12,7 @@
 int closestNum(int arr[], int num) {
         int result = arr[0];
 
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < ARR_SIZE; j++) {
                 // printf("Comparison between %d and %d\n", arr[j], result);
                 if (abs(arr[j] - num) < abs(result - num)) {
                         result = arr[j];
