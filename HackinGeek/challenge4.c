@@ -33,7 +33,7 @@ int main(void) {
         printf("Enter the number to compare: ");
         scanf("%d", &n);
 
-        printf("Le nombre le plus proche de %d est %d\n", n, closestNum(input>
+        printf("Le nombre le plus proche de %d est %d\n", n, closestNum(input, n);
 
         return 0;
 }
